@@ -1,21 +1,15 @@
 require 'sinatra'
 
 get '/' do
-  "Silver Onions"  
+  "Silver Onions"
 end
 
 get '/secret' do
   "Bad Onions"
 end
 
-get '/liquid' do
-  "Water"
-end
-
-get '/sauna' do
-  "Sweaty"
-end
-
-get '/hot_tub' do
-  "Hot"
+get '/cat' do
+  "<div style='border: 5px dashed red'>
+  <img src='http://bit.ly/1eze8aE'>
+  </div>"
 end
