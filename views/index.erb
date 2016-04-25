@@ -3,12 +3,12 @@
 <% end %>
 
 <div style='border: 5px dotted red'>
-  <img src='http://bit.ly/1eze8aE'>
+  <img src='http://www.annrbrocklehurst.com/wp-content/uploads/2014/06/Matthew-Ward-Jackson.png'>
 </div>
 
-<% if !@name %>
-  <form action="/named-cat">
+<% #if !@name %>
+  <form action="/named-cat" method="post">
     <input type="text" name="name">
     <input type="submit" value="Submit">
   </form>
-<% end %>
+<% #end %>
