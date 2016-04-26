@@ -3,11 +3,11 @@
 <h1>My name is <%= @name %></h1>
 <%end%>
 
-<form action="/named-cat">
-  <input type="text" name="name">
-  <input type="submit" value="name that cat!">
-</form>
-
 <div style="border: 5px dashed red">
 <img src="http://bit.ly/1eze8aE">
 </div>
+
+<form action="/named-cat" method="post">
+  <input type="text" name="name">
+  <input type="submit" value="name that cat!">
+</form>
